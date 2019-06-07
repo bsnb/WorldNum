@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:gravity="center"
+    android:textSize="35sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/query"
+    />
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:hint="@string/select"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_chose_btn1"
+        android:onClick="onClick"
+        android:text="国内"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_chose_btn2"
+        android:onClick="onClick"
+        android:text="国外"/>
+
+</LinearLayout>

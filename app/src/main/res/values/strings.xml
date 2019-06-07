@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WorldNum</string>
+    <string name="select">请输入区号</string>
+    <string name="query">号码归属地查询</string>
+    <string name="menu_inland">国内归属地表</string>
+    <string name="label_abroad">国外归属地表</string>
+</resources>
