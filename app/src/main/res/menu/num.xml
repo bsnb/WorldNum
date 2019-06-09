@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/menu_set"
+        android:id="@+id/inl_num"
         android:title="@string/menu_inland"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/open_list"
+        android:id="@+id/for_num"
         android:title="@string/label_abroad"
         app:showAsAction="never" />
 
